@@ -140,12 +140,12 @@ body {
 .three-col-card {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 
   width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
   .three-col-card {
     flex-direction: column;
   }
@@ -168,7 +168,7 @@ body {
   padding: 4rem;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
   .three-col-card .single-col {
     width: 100%;
   }
